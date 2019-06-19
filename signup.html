@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Sign up</title>
+
+  <link rel="stylesheet" href="./style/common.css" type="text/css">
+  <link rel="stylesheet" href="./style/signup.css" type="text/css">
+</head>
+<body>
+  <div class="container">
+    <img class="logo" src="https://upload.wikimedia.org/wikipedia/fr/thumb/c/c8/Twitter_Bird.svg/944px-Twitter_Bird.svg.png">
+    <header><b>Sign up to Miniter</b></header>
+    <div class="input-container">
+      <form>
+        <div class="input-wrap">
+          <input type="text" placeholder="Enter ID" autocomplete="enter-Id" class="newId">
+        </div>
+        <div class="input-wrap">
+          <input type="text" placeholder="Enter Name" autocomplete="enterName" class="newName">
+        </div>
+        <div class="input-wrap">
+          <input type="password" placeholder="Password" autocomplete="current-password" class="newPassword">
+        </div>
+        <div class="input-wrap">
+          <input type="text" placeholder="Confirm Password" autocomplete="enterProfile" class="confirmPassword">
+        </div>
+        <div class="input-wrap">
+          <input type="password" placeholder="Profile" autocomplete="enterProfile" class="newProfile">
+        </div>
+        <span class="errorMessage"></span>
+        <div class="input-wrap">
+          <button class="signup-btn"><b>Sign Up</b></button>
+        </div>
+      </div>
+    </form>
+  </div>
+  <script src="js/signup.js"></script>
+</body>
+</html>

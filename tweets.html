@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Tweets</title>
+
+  <link rel="stylesheet" href="./style/common.css" type="text/css">
+  <link rel="stylesheet" href="./style/tweets.css" type="text/css">
+</head>
+  <body class="tweets-page">
+  <div class="leftSide">
+    <div class="blueBox">
+      <div class="blueCircle"></div>
+    </div>
+    <div class="whiteBox">
+      <div class="userName">Jason Kang</div>
+      <div class="profile">@jkang14</div>
+      <div class="userInfo-container">
+        <span class="userInfo tweets">Tweets</span>
+        <span class="userInfo following">Following</span>
+        <span class="userInfo follower">Followers</span>
+      </div>
+      <div class="count-container">
+        <span class="count tweetCount">0</span>
+        <span class="count followingCount">1</span>
+        <span class="count followerCount">1</span> 
+      </div>
+    </div>
+  </div>
+  <div class="rightSide">
+    <div class="enterNewTweet">
+      <textarea placeholder="What's happening?" class="newMessage"></textarea>
+      <div class="toolBar">
+        <button class="make-btn">Tweet</button>
+      </div>
+    </div>
+    <div class="showTweets">
+      <ul class="tweetList">
+        <div class="noTweet"></div>
+      </ul>
+    </div>
+  </div>
+  <script src="js/tweets.js"></script>
+</body>
+</html>
